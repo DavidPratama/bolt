@@ -71,7 +71,7 @@
             config.entities = false;
             config.fillEmptyBlocks = false;
             config.extraPlugins = 'codemirror';
-
+            config.filebrowserUploadUrl = '/upload.php';  
             config.toolbar = list(
                 [                 { name: 'styles',      items: list( [                 'Format'        ],
                                                                       [set.styles,      'Styles'        ] )}],
